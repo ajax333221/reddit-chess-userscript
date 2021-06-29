@@ -24,7 +24,7 @@ It uses <a href="https://github.com/ajax333221/isepic-chess">Ic.js</a>, <a href=
 
 3. Browser reddit **r/chess** and look for **u/chessvision-ai-bot** comments.
 
-4. :warning:**Important:** due to a bug, when you visit a a post from the feed where **u/chessvision-ai-bot** commented, you need to refresh the page or visit the URL directly for the script to work.
+4. :warning:**Important:** due to a bug, when you visit a a post from the feed, you need to refresh the page or visit the URL directly for the script to work.
 
 :rocket: Features
 -------------
