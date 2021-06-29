@@ -1,8 +1,8 @@
-<p align="center"><a href="https://github.com/ajax333221/isepic-chess"><img width="50" src="https://github.com/ajax333221/isepic-chess-ui/raw/master/css/images/ic_logo.png" alt="Ic.js logo"></a> <a href="https://github.com/ajax333221/isepic-chess-ui"><img width="50" src="https://github.com/ajax333221/isepic-chess-ui/raw/master/css/images/ic_ui_logo.png" alt="IcUi logo"></a></p>
+<p align="center"><a href="https://github.com/ajax333221/isepic-chess"><img width="80" src="https://github.com/ajax333221/isepic-chess-ui/raw/master/css/images/ic_logo.png" alt="Ic.js logo"></a> <a href="https://github.com/ajax333221/isepic-chess-ui"><img width="80" src="https://github.com/ajax333221/isepic-chess-ui/raw/master/css/images/ic_ui_logo.png" alt="IcUi logo"></a></p>
 
 <h1 align="center">reddit-chess-userscript</h1>
 
-This userscript allows you to view u/chessvision-ai-bot position and continuation moves in a chessboard.
+This userscript allows you to view **u/chessvision-ai-bot** position and continuation moves in a chessboard.
 
 It uses <a href="https://github.com/ajax333221/isepic-chess">Ic.js</a>, <a href="https://github.com/ajax333221/isepic-chess-ui">IcUi</a> and <a href="https://github.com/jquery/jquery">jQuery</a> as dependencies.
 
@@ -24,7 +24,7 @@ It uses <a href="https://github.com/ajax333221/isepic-chess">Ic.js</a>, <a href=
 
 3. Browser reddit **r/chess** and look for **u/chessvision-ai-bot** comments.
 
-4. **Important:** due to a bug, when you visit a a post where **u/chessvision-ai-bot** commented from the feed, you need to refresh the page or visit the URL directly for the script to work.
+4. :zap:**Important:** due to a bug, when you visit a a post where **u/chessvision-ai-bot** commented from the feed, you need to refresh the page or visit the URL directly for the script to work.
 
 :rocket: Features
 -------------
