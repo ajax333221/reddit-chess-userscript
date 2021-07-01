@@ -1,0 +1,31 @@
+{
+  "name": "reddit-chess-userscript",
+  "version": "0.9.0",
+  "title": "reddit-chess-userscript",
+  "description": "Transforms u/chessvision-ai-bot comments into isepic-chess replayer",
+  "main": "reddit-chess.user.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajax333221/reddit-chess-userscript.git"
+  },
+  "keywords": [
+    "reddit",
+    "userscript",
+    "chess",
+    "chessboard",
+    "viewer",
+    "replayer"
+  ],
+  "author": "Ajax Isepic",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=3.3.1",
+    "isepic-chess": ">=6.10.4",
+    "isepic-chess-ui": ">=4.1.1"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/ajax333221/reddit-chess-userscript/issues"
+  },
+  "homepage": "https://github.com/ajax333221/reddit-chess-userscript#readme"
+}
