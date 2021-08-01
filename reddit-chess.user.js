@@ -2,7 +2,7 @@
 // @name           reddit-chess-userscript
 // @author         ajax333221
 // @description    Transforms u/chessvision-ai-bot comments into isepic-chess replayer
-// @version        0.9.0
+// @version        0.9.1
 // @include        http://*.reddit.com/r/chess/comments/*
 // @include        https://*.reddit.com/r/chess/comments/*
 // @include        http://*.reddit.com/r/AnarchyChess/comments/*
@@ -31,9 +31,9 @@ $(function(){
 	var temp, temp2, try_pgn, is_rotated;
 	
 	$("<link>").appendTo("head").attr({
-		type: "text/css", 
-		rel: "stylesheet",
-		href: "https://ajax333221.github.io/isepic-chess-ui/css/isepic-chess-ui.css"
+		type : "text/css", 
+		rel : "stylesheet",
+		href : "https://ajax333221.github.io/isepic-chess-ui/css/isepic-chess-ui.css"
 	});
 	
 	temp=(""+$("blockquote p a").first().html());
