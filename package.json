@@ -20,8 +20,8 @@
   "license": "MIT",
   "dependencies": {
     "jquery": ">=3.3.1",
-    "isepic-chess": ">=8.4.2",
-    "isepic-chess-ui": ">=4.4.1"
+    "isepic-chess": ">=8.4.3",
+    "isepic-chess-ui": ">=4.5.0"
   },
   "devDependencies": {},
   "bugs": {
