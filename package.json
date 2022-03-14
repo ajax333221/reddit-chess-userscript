@@ -1,6 +1,6 @@
 {
   "name": "reddit-chess-userscript",
-  "version": "0.9.2",
+  "version": "0.10.0",
   "title": "reddit-chess-userscript",
   "description": "Transforms u/chessvision-ai-bot comments into isepic-chess replayer",
   "main": "reddit-chess.user.js",

@@ -2,7 +2,7 @@
 // @name           reddit-chess-userscript
 // @author         ajax333221
 // @description    Transforms u/chessvision-ai-bot comments into isepic-chess replayer
-// @version        0.9.2
+// @version        0.10.0
 // @include        http://*.reddit.com/r/chess/*
 // @include        https://*.reddit.com/r/chess/*
 // @include        http://*.reddit.com/r/AnarchyChess/*
@@ -64,17 +64,17 @@ function fireCommentTransform(){
 					$("blockquote p a").closest("div").html("<div class=\"ic_ui_board\" style=\"height:350px; width:350px;\"><div id=\"ic_ui_board\"></div></div><div class=\"ic_ui_controls\"><div id=\"icbuttons\"><a id=\"ic_ui_solution\" href=\"#\">(Show solution)</a><br><br><input id=\"ic_ui_nav_first\" value=\"|<\" type=\"button\"><input id=\"ic_ui_nav_previous\" value=\"<\" type=\"button\"><input id=\"ic_ui_nav_next\" value=\">\" type=\"button\"><input id=\"ic_ui_nav_last\" value=\">|\" type=\"button\"><input id=\"ic_ui_rotate\" value=\"rotate\" type=\"button\"><select id=\"ic_ui_promote\"><option value=\"5\" selected=\"selected\">queen</option><option value=\"4\">rook</option><option value=\"3\">bishop</option><option value=\"2\">knight</option></select></div><br><div class=\"ic_ui_move_list\"><div id=\"ic_ui_move_list\"></div></div></div>");
 					
 					$("#icbuttons").css("text-align", "center");
-					$("#icbuttons input").css({"margin" : "0 2px", "padding" : "8px 16px"});
+					$("#icbuttons input").css({"margin": "0 2px", "padding": "8px 16px"});
 					$("#ic_ui_board").parent().css("margin", "0 auto");
 					
 					$("#ic_ui_solution").click(function(){
 						if(try_pgn){
 							Ic.initBoard({
-								boardName : "main",
-								fen : temp,
-								pgn : try_pgn,
-								isRotated : is_rotated,
-								moveIndex : 1
+								boardName: "main",
+								fen: temp,
+								pgn: try_pgn,
+								isRotated: is_rotated,
+								moveIndex: 1
 							});
 						}else{
 							alert("Sorry, solution not found.");
@@ -90,9 +90,9 @@ function fireCommentTransform(){
 					IcUi.setCfg("soundEffects", false);
 					
 					Ic.initBoard({
-						boardName : "main",
-						fen : temp,
-						isRotated : is_rotated
+						boardName: "main",
+						fen: temp,
+						isRotated: is_rotated
 					});
 				}
 			});
@@ -102,9 +102,9 @@ function fireCommentTransform(){
 
 $(function(){
 	$("<link>").appendTo("head").attr({
-		type : "text/css", 
-		rel : "stylesheet",
-		href : "https://ajax333221.github.io/isepic-chess-ui/css/isepic-chess-ui.css"
+		type: "text/css", 
+		rel: "stylesheet",
+		href: "https://ajax333221.github.io/isepic-chess-ui/css/isepic-chess-ui.css"
 	});
 	
 	watchUrlChanges();
