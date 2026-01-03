@@ -40,6 +40,6 @@ It uses <a href="https://github.com/ajax333221/isepic-chess">Ic.js</a>, <a href=
 :page_facing_up: Copyright and license
 -------------
 
-Copyright © 2022 Ajax Isepic (ajax333221)
+Copyright © 2026 Ajax Isepic (ajax333221)
 
 Licensed under MIT License: http://opensource.org/licenses/mit-license.php
